@@ -1,0 +1,54 @@
+CRUD Application using Rest api
+Lab 4 have to finish 
+practice Pyramid, reverse star and Inverted program program
+--------------------------------------------------------------------------------------------------------
+1) class PyramidPattern {
+    public static void main(String args[]) {
+        for (int i = 5; i >= 1; i--) {
+            // Loop to print spaces
+            for (int j = 5 - i; j > 0; j--) {
+                System.out.print(" ");
+            }
+            // Loop to print stars
+            for (int k = 1; k <= (2 * i - 1); k++) {
+	System.out.print("*");
+            }
+            // Move to the next line after printing each row
+            System.out.println();
+        }
+    }
+}
+		   Output
+		*********
+ 		 *******
+  		   *****
+   		     ***
+    		       *
+----------------------------------------------------------------------------------------------------
+2) 		   Output
+    		       *
+                                        ***
+                                      *****
+                                    *******
+                                   *********
+class PyramidPattern {
+    public static void main(String args[]) { 
+for (int i = 1; i <= 5; i++){
+// Loop to print spaces
+for (int j = 5 - i; j > 0; j--){
+system.out.print(" ");
+}
+   // Loop to print stars
+for (int k = 1; k <= (2 * i - 1); k++)
+System.out.println("*");
+}
+//Move to the nexr line after printing each row
+System.out.println();
+}
+}
+}
+
+
+
+
+

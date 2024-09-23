@@ -1,0 +1,24 @@
+Boxing 
+
+7.1 Boxing and un-boxing
+*Boxing
+Boxing or autoboxing in Java is the process by which a primitive data type is converted into an object of the matching wrapper class. It converts boolean, byte, char, short, Int, long, float and double data types into their respective
+wrapper class objects.
+
+class BoxingExample1
+{
+public static void main(String args[])
+{
+int a=40;
+Integer b2=new Integer (a);
+Integer b3=4;
+System.out.println(b2+b3);
+
+}
+
+7.2 Garbage Collection and Finalize
+X
+i) Garbage Collection
+The term garbage refers to unreferenced objects in Java.
+...
+Garbage collection is the procedure of automatically recovering the unused runtime memory. The process gets rid of all unwanted objects. Garbage collection occurs during a program life cycle, effectively minimizing the necessity of memory de-allocation. This process helps to reduce memory leak possibilities. De-allocating memory also reduces the chances of programs crashing.

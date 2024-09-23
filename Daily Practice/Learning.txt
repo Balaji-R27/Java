@@ -1,0 +1,42 @@
+1. interface is a abstract class more than one calss can abstract, keyword of a class
+
+2. access modifer and polymerfisiom
+3. encapsulation is the features of java
+is a  wrapping process that wraps methods and variable datas as single units
+
+4. access modifiers to modify th level of access for a class, method, fiels or constructor.
+
+Access Modifier types
+Default 
+Public
+Private
+Protected
+
+1. Public access modifier
+Public access modifier is used to declare methods, classes, fields and constructor as 'public' or accessible
+ from anywhere.
+Public access modifier can be accessed from inside the class, outside the class, anf from both 
+inside and outside f a package.(Import packages)
+
+2.Private access modififier accessed within the class. subclassess code cannot acccess the variable
+ that are marked with a private access modifier. a private access modifier is used to achieve encapsulation. to keep data hidden from
+access "uses as sub class in package"
+
+Polymorphism:
+in java refers to the abilityof object to transform into diferent forms.
+programmers can define single interface and have multiple executions
+Types:
+Compile time polymorphism also called static polymorphism enabled by operator or function overloading.
+same name different arguments
+
+Runtime Polymerphisam also called as dynamic method method in which an overridden method call can be processed
+ar runtime, super callss refereance variable is used to call an over ridden method.
+same name different arguments is called method overloading
+
+Encapsulation and Abstraction in JAVA
+	Encapsulation refers to wrapping process that wraps methods and variable datas as single units
+
+Decalre all variables within a class as private
+enabling setter methods for viewing and modifying variable values.
+
+package.arthi*
